@@ -36,16 +36,11 @@ export function run(input) {
   if(memberType === 'Gold')
     discountAmount = "15.0"
     
-  const targets = input.cart.lines
- // Inclue all cart lines as part of the discount target
-  targets.map(line => {
-    return /** @type {Target} */ ({
-      // Use the cart line ID to create a discount target
-      orderSubtotal: {
-        excludedVariantIds: [],
-      }
-    });
-  });
+  const targets = [{
+        orderSubtotal:{
+          excludedVariantIds: [],
+        }
+      }]
 
   console.error(targets)
 

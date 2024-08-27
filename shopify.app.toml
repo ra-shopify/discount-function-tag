@@ -3,7 +3,7 @@
 client_id = "d1c9cdb815ae25b0b6b07ce16a8dc2b3"
 name = "discountTag"
 handle = "discounttag"
-application_url = "https://cdt-crucial-bunch-play.trycloudflare.com"
+application_url = "https://barely-smooth-there-she.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_customers,write_discounts,write_products"
 
 [auth]
 redirect_urls = [
-  "https://cdt-crucial-bunch-play.trycloudflare.com/auth/callback",
-  "https://cdt-crucial-bunch-play.trycloudflare.com/auth/shopify/callback",
-  "https://cdt-crucial-bunch-play.trycloudflare.com/api/auth/callback"
+  "https://barely-smooth-there-she.trycloudflare.com/auth/callback",
+  "https://barely-smooth-there-she.trycloudflare.com/auth/shopify/callback",
+  "https://barely-smooth-there-she.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
